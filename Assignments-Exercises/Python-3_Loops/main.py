@@ -1,8 +1,9 @@
 # Loops – For and While Assignment
 
 # Part 1: For Loop - Printing a list of favorite foods
-# Let's create a list of some favorite foods
-favorite_foods = ['Pizza', 'Burger', 'Ice Cream', 'Pasta', 'Sushi']
+# Let's create a list of some favorite foods & colors
+favorite_foods = ['Fries', 'Ice Cream', 'Spaghetti', 'Soup', 'Peanut']
+favorite_colors = ['Blue', 'Red', 'Yellow', 'Green']
 
 # Using a for loop to print each food in the list
 print("Here are my favorite foods:")
@@ -10,6 +11,12 @@ for food in favorite_foods:
     print(f"- {food}")  # Print each food item with a bullet point
 
 print("\n")  # Add a blank line to separate the outputs of the two parts
+
+print("Here are my favorite colors:")
+for color in favorite_colors:
+    print(f"- {color}")  
+
+print("\n")  
 
 # Part 2: While Loop - Countdown from a number
 # Ask the user to enter a starting number for the countdown
